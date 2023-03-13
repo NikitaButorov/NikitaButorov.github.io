@@ -1,45 +1,200 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-  </head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <header>Я начинающий, но способный разработчик ПО.</header>
-                
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/font/flaticon.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <!-- =================Body Started==================== -->
+    <body>
+        <!-- =================================********================================= -->
+        <div id="show_menuitems" class="my-menu">
+            <div class="menu-box">
+                <span>
+                    <i onclick="hide_menu()" class="flaticon-cancel"></i>
+                </span>
+                <ul>
+                    <li><a onclick="hide_menu()" href="#home">Home</a></li>
+                    <li><a onclick="hide_menu()" href="#about">About me</a></li>
+                    <li><a onclick="hide_menu()" href="#resume">Portfolio</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    
-        <div class="myProjects">
-            
-            <li><a href="/1/">Сайт на чистом HTML/CSS</a></li>
-            <li><a href="/2">2-ой сайт на чистом HTML/CSS</a></li>
-            <li><a href="https://www.figma.com/file/S2DLOZ4CYpblN51pSYXaST/Untitled?node-id=0%3A1&t=WDmSyEDNVLMVVtp3-1">Макет Fresh Healthy</a></li>
-            <li><a href="https://www.figma.com/file/qAasekSHaVsyDYm6H4Rzv8/Untitled?node-id=0%3A1&t=YSVBja3YKt0xJ2St-1">Макет Travel</a></li>
-            <li><a href="https://www.figma.com/file/PQOdcgQveZ0Cnv47HHAb6O/Untitled?node-id=0%3A1&t=cVN7JJTrOceWttF7-1">Макет Food Wishes</a></li>
-            <li><a href="https://www.figma.com/file/Q49Z3sxFnOUdcfleoXrCw6/Untitled?node-id=0%3A1&t=n8VYj3D4pbzyJWN5-1">Макет Спорт-приложения</a></li>
-            <li><a href="https://www.figma.com/file/FAOcldmrRU10Xy9NWkiLGv/Untitled?node-id=0%3A1&t=JHxwwgfAw5H8kWkP-1">Иконки</a></li>
-            
-        </div>
-    </section>
-    
-    <footer>
-        Готов к сотрудничеству!
-        mailto: <a id="mailme" href="mailto:nikita.butorov@ivkhk.ee">Написать мне</a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+            <!-- =================================********================================= -->
+            <section id="home">
+                <header>
+                    <div class="container">
+                        <div class="main-nav">
+                            <div class="logo">
+                                <h2>Nikita Butorov</h2>
+                            </div>
+                            <div class="social-media">
+                                <ul>
+                                    <li><a><i class="flaticon-facebook"></i></a></li>
+                                    <li><a><i class="flaticon-twitter"></i></a></li>
+                                    <li><a><i class="flaticon-linkedin"></i></a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div onclick="show_menu()" class="my-toogle">
+                                <span><i class="flaticon-menu"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="my-wrapper">
+                            <div class="inter">
+                                <h6>Introduce</h6>
+                            </div>
+                            <div class="name-box">
+                                <h1>Hello, my name is <span>Nikita Butorov.</span></h1>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
 
-</body>
+            <!-- =================================********================================= -->
+            <section id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="my-wrapper">
+                            <div class="wrapper-box">
+                                <div class="content">
+                                    <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="free-template" data-toggle="tab" href="#free" role="tab" aria-controls="free" aria-selected="true">Web Designing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="premium-template" data-toggle="tab" href="#premium" role="tab" aria-controls="premium" aria-selected="true">Web Development</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="others-template" data-toggle="tab" href="#others" role="tab" aria-controls="others" aria-selected="true">Others</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content" id="myTabContent">
+                                        <!-- ------------***----------- -->
+                                        <div class="tab-pane fade show active" id="free" role="tabpanel" aria-labelledby="free-template">
+                                            <div class="content-list">
+                                                <ol>
+                                                    
+                                                    
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/FreshHealthy.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="https://www.figma.com/file/S2DLOZ4CYpblN51pSYXaST/Untitled?node-id=0%3A1&t=WDmSyEDNVLMVVtp3-1">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/Travel.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="https://www.figma.com/file/qAasekSHaVsyDYm6H4Rzv8/Untitled?node-id=0%3A1&t=YSVBja3YKt0xJ2St-1">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/sport.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="https://www.figma.com/file/Q49Z3sxFnOUdcfleoXrCw6/Untitled?node-id=0%3A1&t=n8VYj3D4pbzyJWN5-1">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                   
+                                                    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <!-- ------------***----------- -->
+                                        <div class="tab-pane fade " id="premium" role="tabpanel" aria-labelledby="premium-template">
+                                            <div class="content-list">
+                                                <ol>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/kinobaza.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="/1">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/makskorz.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="/2">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/kinobaza2.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="/practice_1">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="_ok-vd_zs">
+                                                            <figure>
+                                                                <img src="assets/images/abt/makskorz2.jpg">
+                                                                <div class="inner-content">
+                                                                    <a href="personal">Live Preview</a>
+                                                                </div>
+                                                            </figure>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <!-- ------------***----------- -->
+                                        <div class="tab-pane fade " id="others" role="tabpanel" aria-labelledby="others-template">
+                                            <div class="content-list">
+                                               <ol>
+                                                    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inter">
+                                <h6>Portfolio</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- =================================********================================= -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+
+    </body>
+    <!-- =================Body End==================== -->
 </html>
-
-
-
