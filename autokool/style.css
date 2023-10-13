@@ -1,0 +1,165 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+.promo {
+    height: 800px;
+    background: url("/img/bg.jpg") center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+    align-items: center;
+
+}
+.title1 {
+    font-family: 'Lato', sans-serif;
+    color: rgba(245, 245, 68, 0.881);
+    font-size: 41px;
+    font-weight: 400;
+    margin-top: 17%;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.title2 {
+    font-family: 'Lato', sans-serif;
+    color: rgba(245, 245, 68, 0.881);
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title_big {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.more {
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 18px;
+    margin-top: 19%;
+    color: white;
+    text-align: center;
+}
+.more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.about_us {
+    height: 450px;
+    background: url("/img/about_us_bg.jpg") center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    filter: brightness(60%)
+    
+}
+
+.about_header {
+    color: yellow;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.about_text{
+    margin-top: 5%;
+    color: #ef5858;
+    font-size: 42px;
+    font-weight: 200;
+    line-height: 52px;
+}
+
+.service {
+    height: 650px;
+    background-color: #d4ea65;
+    padding: 39px 0 62px 0;
+    align-items: center;
+}
+.teach {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 550;
+    line-height: 50px;
+}
+.card {
+    width: 285px;
+    height: 375px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.card-header {
+    text-align: center;
+    background-color: #d4ea65 !important;
+    border-bottom: 3px solid rgb(255, 255, 255) !important;
+    font-size: 44px;
+    font-weight: 800;
+    color: white;
+}
+.card_text {
+    background-color: #d4ea65 !important;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 3%;
+}
+.price {
+    background-color: #d4ea65 !important;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+.btn {
+    background-color: #d4ea65 !important;
+    margin-left: 13%;
+    margin-top: 3%;
+    width: 200px;
+}
+footer{
+    height: 169px;
+    background: #1a1a1a;
+}
+footer .footer_wrap{
+    display: flex;
+    justify-content: center;
+}
+footer .footer_link, footer .footer_text, footer .footer_link_divider{
+   margin-top: 70px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   text-align: center;
+   color: #888888; 
+}
+footer .footer_text{
+    margin-top: 0;
+}
+footer .footer_link_divider{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
